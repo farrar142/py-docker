@@ -1,0 +1,5 @@
+ARG PLATFORM
+FROM sandring/blog:$PLATFORM
+COPY . .
+
+EXPOSE 8000
