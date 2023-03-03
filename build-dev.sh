@@ -1,0 +1,1 @@
+docker buildx build --push --no-cache --platform linux/$1 --tag sandring/blog:$1-dev -f docker/dev/dockerfile . --build-arg PLATFORM=$1
