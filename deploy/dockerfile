@@ -1,5 +1,6 @@
 ARG PLATFORM
 FROM sandring/blog:$PLATFORM
+WORKDIR /usr/src/app
 COPY . .
 
 EXPOSE 8000
