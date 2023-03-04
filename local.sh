@@ -1,0 +1,1 @@
+docker build --tag sandring/blog:$1 -f docker/build/dockerfile .
